@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styleBlog.css" />
+    <script>
+        var today=new Date().toLocaleDateString()
+        document.getElementById("datetime").innerHTML = today;
+
+        function msgBox() {
+            alert("This Section in under maintenance");
+        }
+    </script>
+</head>
+<body>
+    <img src="media/trippie6.jpg" class="body-back" />
+    <header class="header-back">
+        <div class="header-right">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a class="dropbtn" href="tour.html">Tour</a>
+                <div class="dropdown-content">
+                    <a href="india.html">India</a>
+                    <a href="china.html">China</a>
+                    <a href="brazil.html">Brazil</a>
+                </div>
+            </div>
+            <a href="cheapFlights.html">Cheap Flights</a>
+            <a href="blog.html">Blogs</a>
+            <a href="career.html">Career</a>
+            <a href="aboutUs.html">About Us</a>
+        </div>
+        <div class="header-left">
+            <img src="media/trippieLogo.png" />
+            <br /><a href="index.html">Trippie</a><br />
+            <p>Make Travelling Happier</p>
+        </div>
+        <h1 class="header-title">blog</h1>
+    </header>
+    <aside class="body-right">
+        <input type="search" class="search" placeholder="Search ..." />
+        <div class="date">
+            <h3>TODAY IS:</h3> 
+            <p id="datetime"> </p>
+        </div>
+        <a href="https://www.google.com/maps/place/27+Madison+Ave,+New+York,+NY+10010,+USA/@40.7421523,-73.9888204,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259a6e64855d9:0x24afcdb29cc7f95a!8m2!3d40.7421483!4d-73.9866317">
+            <img src="media/map.png" />
+        </a>
+    </aside>
+    <article class="body-content">
+        <div class="first">
+            <h1>Travelling in a Changing Climate</h1>
+            <hr />
+            <p>
+                Perhaps no other industry is more dependent on climate than travel and tourism. From warm, sunny, beachfront resorts, to majestic,…
+            </p>
+            <input class="btnContinue" type="button" onclick="msgBox()" value="CONTINUE READING.." />
+        </div>
+        <div class="second">
+            <h1>MTL MOMENTS</h1>
+            <hr />
+            <p>
+                Montréal is a big, busy, exhilarating city, with so much to see and do. To give you some ideas and…
+            </p>
+            <input class="btnContinue" type="button" onclick="msgBox()" value="CONTINUE READING.." />
+        </div>
+        <div class="third">
+            <h1>Types of Tourism</h1>
+            <hr />
+            <p>
+                Following are some types of tourism: 1. Recreational tourism: Tourism is an often activity for recreational purpose. Most tourism took…
+            </p>
+            <input class="btnContinue" type="button" onclick="msgBox()" value="CONTINUE READING.." />
+        </div>
+        <div class="forth">
+            <h1>Why travelling is good for you?</h1>
+            <hr />
+            <p>
+                Did you know that travelling can make your life better and happier in several ways? Read this list to find…
+            </p>
+            <input class="btnContinue" type="button" onclick="msgBox()" value="CONTINUE READING.." />
+        </div>
+    </article>
+
+    <footer>
+        <div class="bottom">
+            <div class="bottom-left">
+                <h3>WHY TRIPPIE ?</h3><br />
+                <p>
+                    The leading player in online bookings for flights, hotel, trips. Trippie offers great offers, some of the lowest airfares, exclusive discounts and a seamless online booking experience. Flight, hotel and holiday bookings through the desktop or mobile site is a delightfully customer friendly experience, and with just a few clicks you can complete your booking. With features like Instant Discounts, Fare Calendar, MyRewards Program, MyWallet and many more, the overall booking experience with Trippie constantly adds value to its product and continues to offer the best to its customers.
+                </p>
+            </div>
+            <div class="bottom-left">
+                <h3>BOOKING FILIGHTS WITH TRIPPIE</h3><br />
+                <p>
+                    Book your flights tickets with world’s leading flight booking company since the year 2000. While booking flights with Trippie, you can expect the ultimate online booking experience. With premium customer service, 24/7 dedicated helpline for support, and over 5 million delighted customers, Trippie takes great pride in enabling customer satisfaction. With a cheapest flight guarantee, book your tickets at the lowest airfares. Avail great offers, exclusive deals for loyal customers and get instant updates for your flight status and fare drops.
+                </p>
+            </div>
+        </div>
+        <div class="navigate">
+            <div class="nav-child">
+                <a href="index.html">Home</a>
+                <a href="tour.html">Tour</a>
+                <a href="cheapFlights.html">Cheap Flights</a>
+                <a href="Blog.html">Blogs</a>
+                <a href="career.html">Career</a>
+                <a href="aboutUs.html">About Us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
